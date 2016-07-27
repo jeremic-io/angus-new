@@ -1,0 +1,88 @@
+/* Compass */
+@import "compass";
+@import "compass/css3/border-radius";
+
+/* Partials */
+@import "partials/_variables";
+
+/* Typography */
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* FORMS */
+.form-control {
+  @include border-radius(0);
+  border: 1px solid $blue-brand;
+  &:focus {
+    border: 1px solid $green-brand;
+    background: $white;
+  }
+}
+
+/* Buttons */
+.btn {
+  @include border-radius(0);
+}
+
+.btn-blue-outlay {
+  border: 1px solid $blue-brand;
+  font-weight: bold;
+}
+
+.btn-full-width {
+  width:100%;
+}
+
+/* Rectangle In */
+.hvr-rectangle-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: $white;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-rectangle-in:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $white;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
+  color: $white;
+  background-color: $blue-brand;
+}
+.hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+/* Contact Us */
+/* Response */
+.response {
+  color: $green-brand;
+  padding: 7px 0 6px 0;
+  font-weight: bold;
+}
