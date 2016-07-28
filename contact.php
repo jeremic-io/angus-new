@@ -10,6 +10,6 @@
       echo 'The message was send!';
     }
   } else {
-    echo 'Please enter all informations!';
+    echo 'Please enter all data!';
   }
 ?>
