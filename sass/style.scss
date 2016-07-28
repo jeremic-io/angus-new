@@ -11,14 +11,23 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
 
+/* BODY */
+body {
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+}
+
 /* FORMS */
 .form-control {
   @include border-radius(0);
-  border: 1px solid $blue-brand;
-  &:focus {
-    border: 1px solid $green-brand;
-    background: $white;
-  }
+  border: 1px solid $green-brand;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0px 9999px white;
+}
+
+textarea {
+  min-height:100px;
 }
 
 /* Buttons */
@@ -27,7 +36,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-blue-outlay {
-  border: 1px solid $blue-brand;
+  border: 1px solid $green-brand;
   font-weight: bold;
 }
 
@@ -35,6 +44,17 @@ h1,h2,h3,h4,h5,h6 {
   width:100%;
 }
 
+.btn-contact {
+  padding: 15px;
+  font-weight: bold;
+  border: 2px solid $green-brand;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background-color: $green-brand;
+  }
+}
 /* Rectangle In */
 .hvr-rectangle-in {
   display: inline-block;
@@ -51,6 +71,7 @@ h1,h2,h3,h4,h5,h6 {
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  color: $black;
 }
 .hvr-rectangle-in:before {
   content: "";
@@ -72,17 +93,230 @@ h1,h2,h3,h4,h5,h6 {
 }
 .hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
   color: $white;
-  background-color: $blue-brand;
+  background-color: $green-brand;
 }
 .hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
 }
 
+/* Main Header */
+.main-header {
+  background-color: #222222 !important;
+  padding:10px 0 0 0;
+}
+
+.logo {
+  display:block;
+  margin-left:27px;
+  margin-bottom:10px;
+  width:100%;
+  height: auto;
+}
+/* MAIN NAVBAR */
+.navbar {
+  margin:0;
+  @include border-radius(0);
+  border: none;
+  padding:0;
+}
+
+.navbar-inverse .navbar-nav {
+  li {
+    padding:2px;
+    a {
+      border: 1px solid $green-brand;
+      color: $green-brand;
+      font-weight: bold;
+      padding:10px;
+
+      &:hover {
+        background: $green-brand;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding:20px;
+
+    .logo-sm {
+      position: relative;
+      top:-17px;
+
+      img {
+        width:150px;
+        height:50px;
+      }
+    }
+  }
+}
+
+/* Intro Section */
+.intro {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/landing.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70vh;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  .intro-text {
+    h1 {
+      font-size: 4em;
+      color: $white;
+      margin-bottom:30px;
+    }
+    p {
+      font-size:1.5em;
+      font-family: Arial, Helvetica, sans-serif;
+      color: $white;
+      margin-bottom:30px;
+      line-height: 1.5em;
+    }
+  }
+  @media (min-width: 992px) {
+    .intro-text {
+      p {
+        width: 75%;
+      }
+    }
+  }
+}
+/* SECTIONS */
+section {
+  font-size: 1.5rem !important;
+  line-height: 2.8rem;
+  padding: 20px 0 20px 0;
+  img {
+    height: auto;
+    margin-bottom:5px;
+  }
+}
+
+.section-h2 {
+  margin-bottom: 12px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid $green-brand;
+  display: inline-block;
+}
+
+
+
+.col-inner {
+  border: 1px solid $green-brand;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:25vh;
+
+  h3 {
+    color: #fff;
+    font-size: 1.8em;
+  }
+}
+
+.service {
+  padding:5px;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+}
+
+.pest-control-bg {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/pest_control.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.fireant-control-bg {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/fire_ant_control.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.rodent-control-bg {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/rodent_control.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.termite-control-bg {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/termite_control.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.mosquito-control-bg {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/mosqitecontrol.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.fertilization-bg {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/fertilization.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.gray-bg {
+  background: $gray;
+  color: $white;
+}
+
+
+
 /* Contact Us */
+.contact-us {
+}
 /* Response */
 .response {
   color: $green-brand;
-  padding: 7px 0 6px 0;
+  padding: 7px 15px 6px 15px;
   font-weight: bold;
+}
+
+.contact-info-inner {
+  background: $green-brand;
+  color: $white;
+  padding:10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .response {
+    text-align: center;
+  }
+}
+
+/* MAIN FOOTER */
+.main-footer {
+  background: $gray;
+  padding: 25px;
+
+  .copyright {
+    text-align: center;
+    font-weight: bold;
+    color: $blue-brand;
+  }
+}
+
+@media (min-width:992px) {
+  section {
+    img {
+      width:100%;
+    }
+  }
 }
