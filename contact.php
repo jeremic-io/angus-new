@@ -7,7 +7,9 @@
     $msg = "Name: {$name}\nEmail: {$email}\nPhone: {$phone}\nMessage: \n" . $message;
 
     if(mail("draganjeremic01.com", "Contact Us", $msg)) {
-      echo 'The message was send!';
+      echo 'The message has been send!';
+    } else {
+      echo 'We failed to send the message... Please try again later.'
     }
   } else {
     echo 'Please enter all data!';
