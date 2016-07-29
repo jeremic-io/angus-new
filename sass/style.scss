@@ -36,7 +36,7 @@ textarea {
 }
 
 .btn-blue-outlay {
-  border: 1px solid $green-brand;
+  background-color: $green-brand;
   font-weight: bold;
 }
 
@@ -125,14 +125,10 @@ textarea {
   li {
     padding:2px;
     a {
-      border: 1px solid $green-brand;
-      color: $green-brand;
+      background: $green-brand;
+      color: $white;
       font-weight: bold;
       padding:10px;
-
-      &:hover {
-        background: $green-brand;
-      }
     }
   }
 }
@@ -198,6 +194,12 @@ section {
 
   p {
     text-align: justify;
+  }
+
+  ul {
+    li {
+      text-align: justify;
+    }
   }
 }
 
