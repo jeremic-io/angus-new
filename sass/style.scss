@@ -35,20 +35,6 @@ textarea {
   @include border-radius(0);
 }
 
-.btn-green-outlay {
-  background-color: $green-brand !important;
-  font-weight: bold;
-  color: $white;
-
-  &:hover {
-    background: $blue-brand;
-  }
-}
-
-.btn-full-width {
-  width:100%;
-}
-
 .btn-contact {
   padding: 15px;
   font-weight: bold;
@@ -246,11 +232,6 @@ section {
   color: $white;
 }
 
-
-
-/* Contact Us */
-.contact-us {
-}
 /* Response */
 .response {
   color: $green-brand;
