@@ -23,36 +23,36 @@
         <a class="logo hidden-xs" href="index.html">
           <img src="images/logo.png" alt="logo">
         </a>
-      </div>
-      <nav class="navbar navbar-inverse">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand hidden-sm hidden-md hidden-lg logo-sm" href="index.html">
-              <img src="images/logo.png" alt="logo">
-            </a>
-          </div>
+        <nav class="navbar navbar-inverse">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand hidden-sm hidden-md hidden-lg logo-sm" href="index.html">
+                <img src="images/logo.png" alt="logo">
+              </a>
+            </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#pest-control">Pest Control</a></li>
-              <li><a href="#fire-ant-control">Fire Ant Control</a></li>
-              <li><a href="#rodent-control">Rodent Control</a></li>
-              <li><a href="#termite-control">Termite Control</a></li>
-              <li><a href="#mosquito-control">Mosquito Control</a></li>
-              <li><a href="#fertilization-program">Fertilization program</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#pest-control">Pest Control</a></li>
+                <li><a href="#fire-ant-control">Fire Ant Control</a></li>
+                <li><a href="#rodent-control">Rodent Control</a></li>
+                <li><a href="#termite-control">Termite Control</a></li>
+                <li><a href="#mosquito-control">Mosquito Control</a></li>
+                <li><a href="#fertilization-program">Fertilization program</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
     </header>
     <div class="intro">
       <div class="container">
