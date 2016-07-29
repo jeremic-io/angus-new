@@ -387,7 +387,7 @@
               </div>
               <div class="row">
                 <div class="col-lg-4">
-                  <button class="btn btn-green-overlay btn-full-width" type="submit" name="submit">Send</button>
+                  <button class="" type="submit" name="submit">Send</button>
                 </div>
                 <div class="col-lg-8 response">
 
