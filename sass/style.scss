@@ -47,12 +47,12 @@ textarea {
 .btn-contact {
   padding: 15px;
   font-weight: bold;
-  border: 2px solid $green-brand;
+  background: $green-brand;
   color: $white;
 
   &:hover {
     color: $white;
-    background-color: $green-brand;
+    background-color: $blue-brand;
   }
 }
 /* Rectangle In */
