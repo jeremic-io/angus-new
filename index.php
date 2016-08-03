@@ -29,6 +29,14 @@
               6330 SW Gator Trail<br>
               Palm City, FL 34990<br>
               (772) 223-9891
+              <div class="social">
+                <a href="#">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
