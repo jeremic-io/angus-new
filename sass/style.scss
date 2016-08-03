@@ -276,8 +276,9 @@ section {
     font-weight: bold;
 
     p {
-      margin-bottom: 0;
+      margin-bottom: 0 !important;
     }
+
     a {
       color: $green-brand;
       font-size: 3rem;
