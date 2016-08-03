@@ -416,7 +416,7 @@
     <footer class="main-footer">
       <div class="container">
         <div class="social">
-          <span>Find us on: </span>
+          <p>Find us on: </p>
           <a href="#">
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
           </a>
