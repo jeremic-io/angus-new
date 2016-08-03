@@ -58,22 +58,14 @@
         </nav>
       </div>
     </header>
-    <div class="intro">
-      <div class="container">
-        <div class="intro-text">
-          <h1>Angus Termite and Pest Control</h1>
-          <p>
-             We offers a variety of professional pest control services including the following: ant control, rodent control, termite control, automated fly misting, mosquito control, and fertilization for both residential and commercial customers.
-          </p>
-          <a href="#contact-form" class="btn btn-contact">Contact Us</a>
-        </div>
-      </div>
-    </div>
     <section class="about-us">
       <div class="container">
         <h2 class="section-h2">About Us</h2>
         <div class="row">
           <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+            <p>
+              We offers a variety of professional pest control services including the following: ant control, rodent control, termite control, automated fly misting, mosquito control, and fertilization for both residential and commercial customers.
+            </p>
             <p>
               Since 2001, Angus Pest Control has serviced the pest control needs of Palm City, Stuart, Port St Lucie, Hobe Sound, Tequesta, and Jupiter, FL. We take pride in being a local, family owned business. We are licensed and insured for your peace of mind.
             </p>
@@ -365,7 +357,7 @@
         </div>
       </div>
     </section>
-  
+
     <footer class="main-footer">
       <div class="container">
         <div class="social">
