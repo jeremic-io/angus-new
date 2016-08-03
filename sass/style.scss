@@ -270,6 +270,16 @@ section {
   background: $gray;
   padding: 25px;
 
+  .social {
+    color: $green-brand;
+    font-size: 1.7rem;
+    a {
+      color: $green-brand;
+      font-size: 1.7rem;
+      text-decoration: none;
+    }
+  }
+
   .copyright {
     text-align: center;
     font-weight: bold;

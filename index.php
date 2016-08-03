@@ -417,8 +417,12 @@
       <div class="container">
         <div class="social">
           <span>Find us on: </span>
-          <i class="fa fa-facebook"></i>
-          <i class="fa fa-twitter"></i>
+          <a href="#">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          </a>
         </div>
         <div class="copyright">
           Copyright © 2012 - 2016 by Angus Pest Control. All rights reserved.
