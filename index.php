@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- HTML5 Shiv for older browsers -->
   <!--[if lt IE 9]>
@@ -414,6 +415,11 @@
 
     <footer class="main-footer">
       <div class="container">
+        <div class="social">
+          <span>Find us on: </span>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+        </div>
         <div class="copyright">
           Copyright © 2012 - 2016 by Angus Pest Control. All rights reserved.
         </div>
