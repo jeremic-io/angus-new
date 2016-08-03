@@ -63,6 +63,7 @@
         </nav>
       </div>
     </header>
+    <a class="contact-us-fixed" href="mailto:info@angus.com">Contact Us</a>
     <section class="about-us">
       <div class="container">
         <h2 class="section-h2">About Us</h2>

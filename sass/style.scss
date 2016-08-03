@@ -287,3 +287,14 @@ section {
     }
   }
 }
+
+.contact-us-fixed {
+  position: fixed;
+  margin-top:10px;
+  display: block;
+  background-color: $blue-brand;
+  color: #fff;
+  left: 10px;
+  padding:10px;
+  font-weight: bold;
+}
