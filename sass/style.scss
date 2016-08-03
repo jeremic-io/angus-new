@@ -274,6 +274,10 @@ section {
     color: $green-brand;
     font-size: 2rem;
     font-weight: bold;
+
+    p {
+      margin-bottom: 0;
+    }
     a {
       color: $green-brand;
       font-size: 3rem;
