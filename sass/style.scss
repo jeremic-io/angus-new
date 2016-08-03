@@ -59,58 +59,36 @@ textarea {
 
 /* Main Header */
 .main-header {
-  background-image: url('../images/banner.jpg');
-  background-size: cover;
-  background-position: top center;
-  padding:10px 0 0 0;
-}
+  .banner {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 150px;
 
-.logo {
-  display:block;
-  margin-left:27px;
-  margin-bottom:10px;
-  width:100%;
-  height: auto;
-}
-/* MAIN NAVBAR */
-.navbar {
-  margin:0;
-  @include border-radius(0);
-  border: none;
-  padding:0;
-  background: transparent;
-}
-
-.navbar-inverse .navbar-nav {
-  li {
-    padding:2px;
-    a {
-      background: $green-brand;
-      color: $white;
-      font-weight: bold;
-      padding:10px;
-    }
-    &:hover {
-      background: $blue-brand;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    padding:20px;
-
-    .logo-sm {
-      position: relative;
-      top:-17px;
+    .logo {
+      display: block;
+      padding-top: 8px;
 
       img {
-        width:150px;
-        height:50px;
+        max-width:100%;
       }
     }
   }
 }
+
+/* Navbar */
+.navbar {
+  @include border-radius(0);
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    padding: 0;
+  }
+}
+
 
 /* Intro Section */
 .intro {

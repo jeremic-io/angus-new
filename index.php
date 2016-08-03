@@ -20,10 +20,13 @@
   <body>
     <!-- Main Header -->
     <header class="main-header">
-      <div class="container">
-        <a class="logo hidden-xs" href="index.html">
-          <img src="images/logo.png" alt="logo">
-        </a>
+        <div class="banner">
+          <div class="container">
+            <a class="logo" href="index.html">
+              <img src="images/logo.png" alt="logo">
+            </a>
+          </div>
+        </div>
         <nav class="navbar navbar-inverse">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,7 +38,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand hidden-sm hidden-md hidden-lg logo-sm" href="index.html">
-                <img src="images/logo.png" alt="logo">
+                Menu
               </a>
             </div>
 
