@@ -74,6 +74,11 @@ textarea {
         max-width:100%;
       }
     }
+
+    .contact-info {
+      margin-top:5px;
+      font-size:2rem;
+    }
   }
 }
 
@@ -259,7 +264,7 @@ section {
 
     a {
       color: $blue-brand;
-      font-size: 3rem;
+      font-size: 4rem;
       text-decoration: none;
 
       &:hover {

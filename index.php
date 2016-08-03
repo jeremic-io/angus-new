@@ -22,9 +22,14 @@
     <header class="main-header">
         <div class="banner">
           <div class="container">
-            <a class="logo" href="index.html">
+            <a class="logo pull-left" href="index.html">
               <img src="images/logo.png" alt="logo">
             </a>
+            <div class="contact-info pull-right">
+              6330 SW Gator Trail<br>
+              Palm City, FL 34990<br>
+              (772) 223-9891
+            </div>
           </div>
         </div>
         <nav class="navbar navbar-inverse">
